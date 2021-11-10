@@ -18,11 +18,21 @@
 			<div class="slides">
 				<section>
 					<section>
-						<h2>Presentacion</h2>
-						<p>Programador, emprendedor, agilista</p>
+						<h2>Andrés Otaduy Botas</h2>
+						<p>Rosarino, padre de dos</p>
+						<p>Programador, ingeniero, profe en utn</p>
+						<p>Fan del rio, el jiujitsu y el judo</p>
 					</section>
 					<section>
-						<h2></h2>
+						<h2>Carrera</h2>
+						<ul>
+							<li>Programador Hobista</li>
+							<li>Programador ERP</li>
+							<li>Emprendedor</li>
+							<li>Freelancer, profesor</li>
+							<li>Dev, team lead en Software Factories</li>
+							<li>Arquitecto en San Cris</li>
+						</ul>
 					</section>
 				</section>
 				<section>
@@ -194,40 +204,107 @@
 						</ul>
 						</div>
 					</section>
+
 					<section>
 						<h2>Agilidad</h2>
+						<ul>
+							<li>Individuos e interacciones sobre procesos y herramientas</li>
+							<li>Software funcionando sobre documentación exhaustiva</li>
+							<li>Colaboración con el cliente sobre negociación de contratos</li>
+							<li>Responder al cambio sobre seguimiento de un plan</li>
+						</ul>
 					</section>
 					<section>
 						<h2>Multidisciplinariedad</h2>
+						<p>Prooduct Owner, Analistas, QA, Diseñadores UI/UX, Desarrolladores, Analistas de Negocio</p>
+					</section>
+					<section>
+						<h2>Code Review</h2>
+						<ul>
+							<li>Propiedad colectiva del código</li>
+							<li>Revision continua</li>
+							<li>Equiparacion de conocimientos</li>
+							<li>Unificacion de estilos</li>
+							<li>Difusiòn de tecnicas y buenas practicas</li>
+						</ul>
 					</section>
 					<section>
 						<h2>Clean Code</h2>
+						<ul>
+							<li>Especial atención a los nombres</li>
+							<li>Evitar comentarios</li>
+							<li>Muchas funciones chicas</li>
+							<li>Pocos argumentos</li>
+							<li>Legibilidad</li>
+							<li>Consistencia</li>
+							<li>Mismo nivel de Abstracción</li>
+						</ul>
 					</section>
 					<section>
 						<h2>Unit test / TDD</h2>
+						<p>Testear cada unidad de código (método, función, clase) aislado de sus dependencias, para verficar de forma automatica la correccion de cada unidad </p>
+						<ul>
+							<li>Evitar regresiones</li>
+							<li>Generar confianza</li>
+							<li>Mejorar el diseño</li>
+							<li>Con TDD romper la inercia</li>
+							<li>Reducir Bugs</li>
+						</ul>
 					</section>
 					<section>
 						<h2>Piramide del Testing</h2>
-					</section>
-					<section>
-						<h2>Zombie Bugs, regresione</h2>
+						<div style="display: flex; align-items: center; flex-direction: column">
+							<div style="width: 30%; background-color: saddlebrown;">Testing Manual</div>
+							<div style="width: 50%; background-color: brown;">End to End Test</div>
+							<div style="width: 70%; background-color: olivedrab;">Integration Test</div>
+							<div style="width: 90%; background-color: darkslategrey;">Unit Test</div>
+						</div>
 					</section>
 					<section>
 						<h2>Test Automation</h2>
+						<p>Automatizar las pruebas desde la UI verificando el funcionamiento de los sistemas de forma automatica</p>
+						<ul>
+							<li>Bajar Costos</li>
+							<li>Eliminar error humano</li>
+							<li>Mejor cobertura</li>
+							<li>Facilitar Regresiones</li>
+						</ul>
 					</section>
 					<section>
 						<h2>Patrones de Diseño</h2>
+						<p>Usamos patrones de diseño, para facilitar la mantenibilidad, comunicación y escabalbilidad de nuestros sistemas</p>
+						<ul>
+							<li>Factory</li>
+							<li>Strategy</li>
+							<li>Facade</li>
+							<li>Observer</li>
+							<li>State</li>
+							<li>Command</li>
+							<li>Singleton</li>
+							<li>Adapter</li>
+						</ul>
 					</section>
 					<section>
 						<h2>
 							Refactoring
 						</h2>
+						<p>Transformaciones en el código para mejorar la mantenibilidad, legibilidad y escalabilidad pero <strong>sin modificar el comportamiento</strong></p>
+						<ul>
+							<li>Extract / Inline Method </li>
+							<li>Create / Inline Variable</li>
+							<li>Replace Type Code with class</li>
+							<li>Replace data value with object</li>
+							<li>Simplify conditionals</li>
+							<li>Extract Subclass</li>
+							<li>Push/Pull Field</li>
+						</ul>
 					</section>
 					<section>
 						<h2>
 							Componentizacion
 						</h2>
-						<p>Biblioteca de Componentes de UI <a href="https://ui-core-components.sancristobalonline.com.ar/"></a> core components</p>
+						<p>Mejorar la velocidad y consistencia mediante reutilizacion mediante componentes comunes de interfaz y de comportamiento</p>
+						<p>Biblioteca de Componentes de UI <a href="https://ui-core-components.sancristobalonline.com.ar/">core components</a> </p>
 					</section>
 					<section>
 						<h2>CQRS</h2>
@@ -240,12 +317,16 @@
 					</section>
 					<section>
 						<h2>Integracion Continua</h2>
+						<p>Los cambios de cada desarrollador se integran de forma automatizada, se corren los test y se hace el build de la aplicacion, para asegurar que todos los cambios que se incorporan al codigo son correctos</p>
 					</section>
 					<section>
 						<h2>Despliegue Automatizado</h2>
+						<p>Para llevar la aplicación a producción se utilizan programas que se encargan de la copia de los archivos, migraciones de BD, altas y bajas de servidores etc.</p>
 					</section>
 					<section>
 						<h2>Despliegue Continuo</h2>
+						<p>Se lleva la  aplicación a producción en ciclos cortos (semanalmente, cada 15 dias) para ejercitar los procesos de salida y minimizar la cantidad de errores de migracion, despliegue, etc.</p>
+						<p>De esta forma entregamos valor de forma constante.</p>
 					</section>
 					<section></section>
 				</section>
