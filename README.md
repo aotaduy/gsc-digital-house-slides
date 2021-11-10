@@ -3,3 +3,5 @@
 ## Talent Experience 
 ###Grupo San Cristobal 
 ### Digital House
+
+https://aotaduy.github.io/gsc-digital-house-slides/
